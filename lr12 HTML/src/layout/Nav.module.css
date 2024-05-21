@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #fff;
+}
+
+.logo {
+  height: 60px;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.links a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.request, .calculate {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  padding: 15px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.request {
+  background-color: #ef7f04;
+  color: white;
+}
+
+.calculate {
+  background-color: #3b3a63;
+  color: white;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 18px;
+  color: rgb(42, 88, 126);
+  text-align: center;
+}
